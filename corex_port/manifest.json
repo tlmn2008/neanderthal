@@ -42,8 +42,11 @@
     "fork_url": "https://github.com/tlmn2008/neanderthal",
     "branch": "corex-port",
     "default_branch": "corex-port",
-    "default_branch_status": "not_attempted",
-    "push_status": "pending"
+    "default_branch_status": "success",
+    "compare_url": "https://github.com/tlmn2008/neanderthal/tree/corex-port",
+    "push_commit": "e59f1f25cf7ec0c1ed83bec9d99f37ed38d5a372",
+    "push_status": "success",
+    "pushed_at": "2026-07-28T19:00:00+08:00"
   },
 
   "local_logs": {
