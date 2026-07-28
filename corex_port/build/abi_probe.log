@@ -1,0 +1,39 @@
+# JavaCPP CUDA-13.1 JNI vs CoreX CUDA-10.2 ABI probe  (Tue Jul 28 18:38:46 CST 2026)
+## JNI NEEDED SONAMEs (readelf -d):
+### libjnicudart.so
+ 0x0000000000000001 (NEEDED)             Shared library: [libcuda.so.1]
+ 0x0000000000000001 (NEEDED)             Shared library: [libcudart.so.13]
+ 0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so.6]
+ 0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]
+### libjnicublas.so
+ 0x0000000000000001 (NEEDED)             Shared library: [libcublas.so.13]
+ 0x0000000000000001 (NEEDED)             Shared library: [libcublasLt.so.13]
+ 0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]
+ 0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]
+### libjninvrtc.so
+ 0x0000000000000001 (NEEDED)             Shared library: [libnvrtc.so.13]
+ 0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]
+ 0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]
+### libjnicusolver.so
+ 0x0000000000000001 (NEEDED)             Shared library: [libcusolverMg.so.12]
+ 0x0000000000000001 (NEEDED)             Shared library: [libcusolver.so.12]
+ 0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]
+ 0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]
+
+## cublas symbol diff: JNI requires 798 versioned @libcublas.so.13; CoreX 10.2 provides them UNVERSIONED -> 798 unresolved
+  JNI undefined cublas syms: 798
+  CoreX-defined cublas syms: 995
+  unresolved (version mismatch): 798
+
+## dlopen probe (shim: corex .so.10 symlinked to .so.13):
+dlopen FAILED for /tmp/jnicuda/org/bytedeco/cuda/linux-x86_64/libjnicudart.so:
+  /home/repos/neanderthal/corex_port/corex-libs/libcudart.so.13: version `libcudart.so.13' not found (required by /tmp/jnicuda/org/bytedeco/cuda/linux-x86_64/libjnicudart.so)
+dlopen FAILED for /tmp/jnicuda/org/bytedeco/cuda/linux-x86_64/libjnicublas.so:
+  /tmp/jnicuda/org/bytedeco/cuda/linux-x86_64/libjnicublas.so: undefined symbol: cublasZsyrk_v2_64, version libcublas.so.13
+dlopen FAILED for /tmp/jnicuda/org/bytedeco/cuda/linux-x86_64/libjninvrtc.so:
+  /tmp/jnicuda/org/bytedeco/cuda/linux-x86_64/libjninvrtc.so: undefined symbol: nvrtcGetLTOIRSize, version libnvrtc.so.13

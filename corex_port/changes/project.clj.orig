@@ -31,18 +31,10 @@
                                       [org.uncomplicate/neanderthal-test "0.64.0"]
                                       [org.uncomplicate/neanderthal-openblas "0.64.0"]]
                        :jvm-opts ^:replace ["-Dclojure.compiler.direct-linking=true"
-                                             "--enable-native-access=ALL-UNNAMED"
-                                             ;; CoreX (ivcore11) port: prefer system CoreX CUDA libs
-                                             ;; (/usr/local/corex, CUDA 10.2) over any bundled NVIDIA libs.
-                                             "-Dorg.bytedeco.javacpp.pathsFirst=true"
-                                             "-Dorg.bytedeco.javacpp.logger.debug=true"
-                                             "-Djava.library.path=/home/repos/neanderthal/corex_port/corex-libs:/usr/local/corex/lib64"]}
-             ;; CoreX (ivcore11) port: the org.bytedeco cuda-redist* jars bundle the
-             ;; NVIDIA CUDA 13.1 userspace libraries. On CoreX we must instead bind the
-             ;; JavaCPP CUDA JNI to the system CoreX libraries under /usr/local/corex
-             ;; (CUDA 10.2). The two cuda-redist* deps are therefore dropped for the
-             ;; CoreX build (the upstream NVIDIA build keeps them via git history / orig).
-             :linux {:dependencies [[org.bytedeco/openblas "0.3.31-1.5.13" :classifier "linux-x86_64"]]}
+                                             "--enable-native-access=ALL-UNNAMED"]}
+             :linux {:dependencies [[org.bytedeco/openblas "0.3.31-1.5.13" :classifier "linux-x86_64"]
+                                    [org.bytedeco/cuda-redist "13.1-9.19-1.5.13" :classifier "linux-x86_64"]
+                                    [org.bytedeco/cuda-redist-cublas "13.1-9.19-1.5.13" :classifier "linux-x86_64"]]}
              :windows {:dependencies [[org.bytedeco/openblas "0.3.31-1.5.13" :classifier "windows-x86_64"]
                                       [org.bytedeco/cuda-redist "13.1-9.19-1.5.13" :classifier "windows-x86_64"]
                                       [org.bytedeco/cuda-redist-cublas "13.1-9.19-1.5.13" :classifier "windows-x86_64"]]}}

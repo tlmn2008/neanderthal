@@ -1,0 +1,12 @@
+{
+  "repo": "neanderthal",
+  "scope": "neanderthal-cuda 的 CUDA/cuBLAS 后端测试（neanderthal-cuda/test/uncomplicate/neanderthal/cublas_test.clj，覆盖 float/double/half/long/int/short/byte 七个 factory 的 BLAS/LAPACK/vect-math/random/block/device 全套 midje facts）。",
+  "run_command": "cd neanderthal-cuda && CUDA_VISIBLE_DEVICES=1 LD_LIBRARY_PATH=<corex-libs shim>:/usr/local/corex/lib64 lein midje",
+  "tests_run": 0,
+  "tests_passed": 0,
+  "tests_failed": 0,
+  "tests_skipped": 0,
+  "test_status": "not_attempted",
+  "note": "运行时用例数为 0：CUDA 后端在命名空间加载阶段即抛 UnsatisfiedLinkError / NoClassDefFoundError(org.bytedeco.cuda.global.cudart 初始化失败)，测试命名空间 LOAD FAILURE，没有任何一个 midje fact 进入执行。这是一个 terminal blocker(见 blockers.json: javacpp-cuda13-vs-corex-cuda10-abi)，不是主动挑选或跳过用例。逐条日志见 test.log。",
+  "metrics": []
+}

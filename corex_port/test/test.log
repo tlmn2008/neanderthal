@@ -1,0 +1,841 @@
+WARNING: any? already refers to: #'clojure.core/any? in namespace: leiningen.midje, being replaced by: #'leiningen.midje/any?
+Boxed math warning, such/versions.clj:11:9 - call: public static boolean clojure.lang.Numbers.gte(java.lang.Object,long).
+Boxed math warning, such/versions.clj:19:9 - call: public static boolean clojure.lang.Numbers.gte(java.lang.Object,long).
+Boxed math warning, midje/util/ecosystem.clj:20:9 - call: public static boolean clojure.lang.Numbers.gte(java.lang.Object,long).
+Boxed math warning, midje/util/ecosystem.clj:24:9 - call: public static boolean clojure.lang.Numbers.gte(java.lang.Object,long).
+Boxed math warning, nrepl/socket.clj:253:9 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,long).
+Boxed math warning, nrepl/socket.clj:258:15 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,long).
+Boxed math warning, nrepl/core.clj:32:30 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, io/aviso/ansi.clj:115:73 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/ansi.clj:116:98 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/ansi.clj:117:112 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/ansi.clj:118:131 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/ansi.clj:119:90 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/ansi.clj:120:106 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/ansi.clj:121:123 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/ansi.clj:122:139 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/ansi.clj:123:98 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/ansi.clj:124:117 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/ansi.clj:125:109 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/ansi.clj:126:125 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/columns.clj:18:5 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, io/aviso/columns.clj:19:50 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(long,java.lang.Object).
+Boxed math warning, io/aviso/columns.clj:43:36 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, io/aviso/columns.clj:43:29 - call: public static java.lang.Object clojure.lang.Numbers.max(long,java.lang.Object).
+Boxed math warning, io/aviso/columns.clj:44:36 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, io/aviso/columns.clj:44:29 - call: public static java.lang.Object clojure.lang.Numbers.max(long,java.lang.Object).
+Boxed math warning, io/aviso/columns.clj:54:7 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, io/aviso/columns.clj:61:8 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, io/aviso/exception.clj:100:45 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, io/aviso/exception.clj:205:29 - call: public static boolean clojure.lang.Numbers.isPos(java.lang.Object).
+Boxed math warning, midje/util/ordered_map.clj:79:45 - call: public static long clojure.lang.Numbers.xor(java.lang.Object,java.lang.Object).
+Boxed math warning, midje/util/ordered_map.clj:79:17 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, midje/emission/boundaries.clj:15:11 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, midje/emission/boundaries.clj:22:14 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, midje/emission/boundaries.clj:22:14 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, clj_time/coerce.clj:34:14 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_multiply(java.lang.Object,long).
+Boxed math warning, clj_time/coerce.clj:84:5 - call: public static java.lang.Number clojure.lang.Numbers.quotient(java.lang.Object,long).
+Boxed math warning, clojure/tools/reader/impl/utils.clj:18:9 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,long).
+Boxed math warning, clojure/tools/reader/impl/utils.clj:23:14 - call: public static boolean clojure.lang.Numbers.lte(java.lang.Object,long).
+Boxed math warning, clojure/tools/reader/impl/inspect.clj:71:20 - call: public static boolean clojure.lang.Numbers.gt(long,java.lang.Object).
+Boxed math warning, clojure/tools/reader/impl/commons.clj:78:5 - call: public static java.lang.Number clojure.lang.Numbers.divide(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/tools/reader/default_data_readers.clj:30:3 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/tools/reader/default_data_readers.clj:45:9 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,long).
+Boxed math warning, clojure/tools/reader/default_data_readers.clj:47:21 - call: public static boolean clojure.lang.Numbers.lt(long,java.lang.Object).
+Boxed math warning, clojure/tools/reader/default_data_readers.clj:246:35 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/tools/reader/default_data_readers.clj:247:32 - call: public static java.lang.Number clojure.lang.Numbers.quotient(java.lang.Object,long).
+Boxed math warning, clojure/tools/reader/default_data_readers.clj:250:32 - call: public static boolean clojure.lang.Numbers.isNeg(java.lang.Object).
+Boxed math warning, clojure/tools/namespace/dir.clj:31:12 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,long).
+Boxed math warning, arrangement/core.cljc:66:11 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, arrangement/core.cljc:93:9 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, arrangement/core.cljc:94:9 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/core/rrb_vector/parameters.clj:22:30 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_multiply(long,java.lang.Object).
+Boxed math warning, clojure/core/rrb_vector/parameters.clj:23:19 - call: public static long clojure.lang.Numbers.shiftLeft(long,java.lang.Object).
+Boxed math warning, clojure/core/rrb_vector/parameters.clj:24:18 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/core/rrb_vector/parameters.clj:25:27 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/core/rrb_vector/parameters.clj:26:27 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,long).
+Boxed math warning, clojure/core/rrb_vector/parameters.clj:27:28 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/core/rrb_vector/parameters.clj:28:27 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_multiply(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:84:16 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:109:32 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:136:58 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:141:27 - call: public static boolean clojure.lang.Numbers.lte(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:141:43 - call: public static boolean clojure.lang.Numbers.lte(long,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:179:45 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, fipp/engine.cljc:180:47 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:183:32 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:197:20 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, fipp/engine.cljc:199:39 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:199:36 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:203:20 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,long).
+Boxed math warning, fipp/engine.cljc:227:41 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, fipp/engine.cljc:227:34 - call: public static java.lang.Object clojure.lang.Numbers.max(long,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:221:36 - call: public static boolean clojure.lang.Numbers.isPos(java.lang.Object).
+Boxed math warning, fipp/engine.cljc:221:49 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, fipp/engine.cljc:223:36 - call: public static boolean clojure.lang.Numbers.lte(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:207:37 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:207:34 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:214:43 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, fipp/engine.cljc:211:43 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, puget/printer.clj:175:21 - call: public static boolean clojure.lang.Numbers.isPos(java.lang.Object).
+Boxed math warning, puget/printer.clj:182:39 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,long).
+Boxed math warning, puget/printer.clj:193:21 - call: public static boolean clojure.lang.Numbers.gte(java.lang.Object,long).
+Boxed math warning, puget/printer.clj:206:13 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, puget/printer.clj:572:32 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, puget/printer.clj:573:36 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,long).
+Boxed math warning, midje/util/ordered_set.clj:78:15 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, flare/util.clj:17:9 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,long).
+Boxed math warning, flare/sequential.clj:9:45 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, flare/sequential.clj:10:33 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Reflection warning, flare/string.clj:23:24 - reference to field operation can't be resolved.
+Reflection warning, flare/string.clj:23:43 - reference to field text can't be resolved.
+Boxed math warning, flare/string.clj:97:8 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(long,java.lang.Object).
+Boxed math warning, flare/string.clj:97:5 - call: public static java.lang.Number clojure.lang.Numbers.divide(java.lang.Object,long).
+Boxed math warning, flare/string.clj:141:8 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,long).
+Boxed math warning, flare/string.clj:175:9 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_multiply(java.lang.Object,long).
+Boxed math warning, midje/emission/plugins/default_failure_lines.clj:85:46 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, midje/emission/plugins/default.clj:42:16 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, midje/emission/plugins/default.clj:42:9 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, midje/emission/plugins/default.clj:45:9 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, midje/emission/plugins/default.clj:58:9 - call: public static boolean clojure.lang.Numbers.isPos(java.lang.Object).
+Boxed math warning, midje/emission/plugins/default.clj:62:45 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, midje/emission/plugins/default.clj:62:39 - call: public static boolean clojure.lang.Numbers.isPos(java.lang.Object).
+Boxed math warning, midje/parsing/util/zip.clj:47:7 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, midje/parsing/util/zip.clj:49:12 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, pointer/core.clj:51:61 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, midje/checking/checkers/simple.clj:41:15 - call: public static boolean clojure.lang.Numbers.isPos(java.lang.Object).
+Boxed math warning, midje/checking/checkers/simple.clj:43:13 - call: public static java.lang.Number clojure.lang.Numbers.minusP(java.lang.Object).
+Boxed math warning, midje/checking/checkers/simple.clj:52:28 - call: public static java.lang.Number clojure.lang.Numbers.minusP(java.lang.Object,java.lang.Object).
+Boxed math warning, midje/checking/checkers/simple.clj:52:15 - call: public static boolean clojure.lang.Numbers.gte(java.lang.Object,java.lang.Object).
+Boxed math warning, midje/checking/checkers/simple.clj:53:28 - call: public static java.lang.Number clojure.lang.Numbers.addP(java.lang.Object,java.lang.Object).
+Boxed math warning, midje/checking/checkers/simple.clj:53:15 - call: public static boolean clojure.lang.Numbers.lte(java.lang.Object,java.lang.Object).
+Boxed math warning, midje/checking/checkers/simple.clj:55:31 - call: public static double clojure.lang.Numbers.multiplyP(double,java.lang.Object).
+Reflection warning, midje/checking/checkers/simple.clj:63:21 - reference to field getCause can't be resolved.
+Boxed math warning, clojure/math/combinatorics.cljc:119:55 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:119:67 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:119:64 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:119:55 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:119:55 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:119:67 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:119:64 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:119:55 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:119:45 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:122:17 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:123:34 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:124:21 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:124:36 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:127:39 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:127:47 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:127:60 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:130:37 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:140:9 - call: public static boolean clojure.lang.Numbers.gte(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:141:36 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:143:13 - call: public static boolean clojure.lang.Numbers.lte(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:145:47 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:146:18 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:147:18 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:153:7 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:155:35 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:157:22 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:157:40 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:158:16 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:168:40 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:168:58 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:170:26 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:170:17 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:170:73 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:170:13 - call: public static boolean clojure.lang.Numbers.lte(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:171:27 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:171:58 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:205:9 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:207:15 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:262:19 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:267:21 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:268:44 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:269:15 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:270:46 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:332:9 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:332:30 - call: public static java.lang.Number clojure.lang.Numbers.multiplyP(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:332:41 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:341:9 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:343:15 - call: public static java.lang.Number clojure.lang.Numbers.quotient(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:343:35 - call: public static java.lang.Number clojure.lang.Numbers.remainder(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:348:9 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:349:44 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:388:69 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:388:69 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:403:14 - call: public static boolean clojure.lang.Numbers.lte(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:404:14 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:405:14 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:424:9 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:471:5 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:495:5 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:496:5 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:497:5 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:499:10 - call: public static java.lang.Number clojure.lang.Numbers.quotient(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:499:5 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:499:31 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:500:36 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:500:31 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:500:45 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:501:33 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:500:11 - call: public static java.lang.Number clojure.lang.Numbers.divide(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:507:7 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:510:7 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:515:60 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:515:9 - call: public static java.lang.Number clojure.lang.Numbers.addP(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:534:26 - call: public static java.lang.Number clojure.lang.Numbers.quotient(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:536:21 - call: public static java.lang.Number clojure.lang.Numbers.multiplyP(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:537:8 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:537:18 - call: public static java.lang.Number clojure.lang.Numbers.multiplyP(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:538:23 - call: public static java.lang.Number clojure.lang.Numbers.multiplyP(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:538:32 - call: public static java.lang.Number clojure.lang.Numbers.multiplyP(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:563:13 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:564:49 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:565:13 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:566:57 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:567:38 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:577:13 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:581:71 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:582:13 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:583:55 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:584:50 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:610:11 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:612:27 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:631:24 - call: public static java.lang.Number clojure.lang.Numbers.multiplyP(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:631:14 - call: public static java.lang.Number clojure.lang.Numbers.addP(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:686:24 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:686:24 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:686:19 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:686:12 - call: public static java.lang.Object clojure.lang.Numbers.max(long,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:686:24 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:686:24 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:686:19 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:686:12 - call: public static java.lang.Object clojure.lang.Numbers.max(long,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:685:27 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:699:22 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:700:40 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:700:28 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:701:45 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:702:32 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:703:34 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:705:45 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:705:36 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:708:40 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:708:67 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:708:63 - call: public static boolean clojure.lang.Numbers.equiv(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:708:40 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:708:88 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:708:36 - call: public static boolean clojure.lang.Numbers.lte(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:711:34 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:712:21 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:717:32 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:716:29 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:721:40 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:723:65 - call: public static boolean clojure.lang.Numbers.equiv(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:722:50 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:725:35 - call: public static boolean clojure.lang.Numbers.equiv(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:727:50 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:727:47 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:727:42 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:728:52 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:728:49 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:731:44 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:732:61 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:732:44 - call: public static java.lang.Object clojure.lang.Numbers.max(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:736:48 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:746:30 - call: public static boolean clojure.lang.Numbers.lte(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:747:26 - call: public static boolean clojure.lang.Numbers.gte(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:825:29 - call: public static boolean clojure.lang.Numbers.gte(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:827:46 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:829:38 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:833:52 - call: public static java.lang.Object clojure.lang.Numbers.min(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:834:41 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:835:41 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:836:41 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:841:41 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:842:41 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:847:19 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:848:24 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:850:19 - call: public static boolean clojure.lang.Numbers.lte(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:851:22 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:851:19 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:852:14 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:852:40 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:853:39 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:857:56 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:857:48 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:858:69 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:857:56 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:857:48 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:858:69 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:855:46 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:866:20 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:869:22 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:873:18 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:873:30 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:873:15 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_multiply(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:873:12 - call: public static boolean clojure.lang.Numbers.lt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:879:44 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:879:44 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:878:59 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:880:38 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:887:56 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:887:51 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:888:46 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:888:39 - call: public static java.lang.Object clojure.lang.Numbers.max(long,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:891:34 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:894:31 - call: public static boolean clojure.lang.Numbers.gt(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:895:36 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:897:36 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:898:42 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_minus(java.lang.Object,java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:899:19 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:907:13 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:923:30 - call: public static boolean clojure.lang.Numbers.lte(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:924:26 - call: public static boolean clojure.lang.Numbers.gte(java.lang.Object,long).
+Boxed math warning, clojure/math/combinatorics.cljc:929:59 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:929:59 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:934:58 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:934:58 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:934:58 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, clojure/math/combinatorics.cljc:934:58 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_dec(java.lang.Object).
+Boxed math warning, midje/parsing/util/error_handling.clj:9:44 - call: public static boolean clojure.lang.Numbers.isPos(java.lang.Object).
+Boxed math warning, midje/parsing/util/error_handling.clj:37:30 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, midje/data/prerequisite_state.clj:115:36 - call: public static boolean clojure.lang.Numbers.gte(java.lang.Object,java.lang.Object).
+Boxed math warning, midje/checking/checkables.clj:94:23 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, midje/checking/checkables.clj:100:8 - call: public static boolean clojure.lang.Numbers.isZero(java.lang.Object).
+Boxed math warning, midje/parsing/1_to_explicit_form/facts.clj:197:3 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_inc(java.lang.Object).
+Boxed math warning, midje/parsing/0_to_fact_form/tabular.clj:59:7 - call: public static java.lang.Number clojure.lang.Numbers.unchecked_add(long,java.lang.Object).
+Boxed math warning, midje/parsing/0_to_fact_form/formulas.clj:22:9 - call: public static boolean clojure.lang.Numbers.isPos(java.lang.Object).
+Boxed math warning, midje/parsing/0_to_fact_form/formulas.clj:69:21 - call: public static boolean clojure.lang.Numbers.isPos(java.lang.Object).
+Boxed math warning, /tmp/form-init2246673544480189822.clj:1:782 - call: public static java.lang.Object clojure.lang.Numbers.min(long,java.lang.Object).
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.javacpp.Pointer
+Debug: Locking /root/.javacpp/cache before extracting
+Debug: Extracting jar:file:/root/.m2/repository/org/bytedeco/javacpp/1.5.13/javacpp-1.5.13-linux-x86_64.jar!/org/bytedeco/javacpp/linux-x86_64/libjnijavacpp.so
+Debug: Loading /root/.javacpp/cache/javacpp-1.5.13-linux-x86_64.jar/org/bytedeco/javacpp/linux-x86_64/libjnijavacpp.so
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.javacpp.BoolPointer
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.javacpp.DoublePointer
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.javacpp.FloatPointer
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.javacpp.CLongPointer
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.javacpp.LongPointer
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.javacpp.ShortPointer
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.javacpp.IntPointer
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.javacpp.SizeTPointer
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.javacpp.BytePointer
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.javacpp.PointerPointer
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.javacpp.CharPointer
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.cuda.global.cudart
+Debug: Loading /home/repos/neanderthal/corex_port/corex-libs/libcudart.so.13
+Debug: Locking /root/.javacpp/cache before extracting
+Debug: Extracting jar:file:/root/.m2/repository/org/bytedeco/cuda/13.1-9.19-1.5.13/cuda-13.1-9.19-1.5.13-linux-x86_64.jar!/org/bytedeco/cuda/linux-x86_64/libjnicudart.so
+Debug: Creating symbolic link /root/.javacpp/cache/cuda-13.1-9.19-1.5.13-linux-x86_64.jar/org/bytedeco/cuda/linux-x86_64/libcudart.so.13 to /home/repos/neanderthal/corex_port/corex-libs/libcudart.so.13
+Debug: Loading /root/.javacpp/cache/cuda-13.1-9.19-1.5.13-linux-x86_64.jar/org/bytedeco/cuda/linux-x86_64/libjnicudart.so
+Debug: Failed to load /root/.javacpp/cache/cuda-13.1-9.19-1.5.13-linux-x86_64.jar/org/bytedeco/cuda/linux-x86_64/libjnicudart.so: java.lang.UnsatisfiedLinkError: /root/.javacpp/cache/cuda-13.1-9.19-1.5.13-linux-x86_64.jar/org/bytedeco/cuda/linux-x86_64/libjnicudart.so: /usr/local/corex-4.5.0/lib64/libcudart.so.10.2.89: version `libcudart.so.13' not found (required by /root/.javacpp/cache/cuda-13.1-9.19-1.5.13-linux-x86_64.jar/org/bytedeco/cuda/linux-x86_64/libjnicudart.so)
+Debug: Loading library jnicudart
+Debug: Failed to load for jnicudart: java.lang.UnsatisfiedLinkError: no jnicudart in java.library.path: /home/repos/neanderthal/corex_port/corex-libs:/usr/local/corex/lib64
+[31mLOAD FAILURE for uncomplicate.neanderthal.cublas-test[0m
+[1;31mclojure.lang.Compiler$CompilerException[m: [37mSyntax error macroexpanding def at (constants.clj:16:1).[m
+    [1mdata[m: #:clojure.error{:phase :execution,
+                          :line 16,
+                          :column 1,
+                          :source "constants.clj",
+                          :symbol def}
+         [1;31mjava.lang.UnsatisfiedLinkError[m: [37mno jnicudart in java.library.path: /home/repos/neanderthal/corex_port/corex-libs:/usr/local/corex/lib64[m
+         [1;31mjava.lang.UnsatisfiedLinkError[m: [37m/root/.javacpp/cache/cuda-13.1-9.19-1.5.13-linux-x86_64.jar/org/bytedeco/cuda/linux-x86_64/libjnicudart.so: /usr/local/corex-4.5.0/lib64/libcudart.so.10.2.89: version `libcudart.so.13' not found (required by /root/.javacpp/cache/cuda-13.1-9.19-1.5.13-linux-x86_64.jar/org/bytedeco/cuda/linux-x86_64/libjnicudart.so)[m
+                               [37mjdk.internal.loader.NativeLibraries.load[m  [32m             NativeLibraries.java     [m
+             [37mjdk.internal.loader.NativeLibraries$NativeLibraryImpl.open[m  [32m            NativeLibraries.java:  331[m
+                        [37mjdk.internal.loader.NativeLibraries.loadLibrary[m  [32m            NativeLibraries.java:  197[m
+                        [37mjdk.internal.loader.NativeLibraries.loadLibrary[m  [32m            NativeLibraries.java:  139[m
+                                      [37mjava.lang.ClassLoader.loadLibrary[m  [32m                ClassLoader.java: 2418[m
+                                                [37mjava.lang.Runtime.load0[m  [32m                    Runtime.java:  852[m
+                                                  [37mjava.lang.System.load[m  [32m                     System.java: 2026[m
+                                [37morg.bytedeco.javacpp.Loader.loadLibrary[m  [32m                     Loader.java: 1779[m
+                                       [37morg.bytedeco.javacpp.Loader.load[m  [32m                     Loader.java: 1423[m
+                                       [37morg.bytedeco.javacpp.Loader.load[m  [32m                     Loader.java: 1234[m
+                                       [37morg.bytedeco.javacpp.Loader.load[m  [32m                     Loader.java: 1210[m
+                               [37morg.bytedeco.cuda.global.cudart.<clinit>[m  [32m                     cudart.java:   14[m
+                       [37mjdk.internal.misc.Unsafe.ensureClassInitialized0[m  [32m                      Unsafe.java     [m
+                        [37mjdk.internal.misc.Unsafe.ensureClassInitialized[m  [32m                     Unsafe.java: 1160[m
+[37mjdk.internal.reflect.MethodHandleAccessorFactory.ensureClassInitialized[m  [32mMethodHandleAccessorFactory.java:  301[m
+      [37mjdk.internal.reflect.MethodHandleAccessorFactory.newFieldAccessor[m  [32mMethodHandleAccessorFactory.java:  141[m
+                [37mjdk.internal.reflect.ReflectionFactory.newFieldAccessor[m  [32m          ReflectionFactory.java:  145[m
+                                                                    [37m...[m  [32m                                      [m
+                                                   [37mclojure.core/load/[37mfn[m  [32m                        core.clj: 6193[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6192[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6176[m
+                                                                    [37m...[m  [32m                                      [m
+                                                  [37mclojure.core/[37mload-one[m  [32m                        core.clj: 5965[m
+                                               [37mclojure.core/load-lib/[37mfn[m  [32m                        core.clj: 6007[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 6006[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 5985[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6052[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6032[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                   [37mclojure.core/[37mrequire[m  [32m                        core.clj: 6070[m
+                [37muncomplicate.clojurecuda.info/eval23666/[37mloading--auto--[m  [32m                        info.clj:    9[m
+                                [37muncomplicate.clojurecuda.info/[37meval23666[m  [32m                        info.clj:    9[m
+                                                                    [37m...[m  [32m                                      [m
+                                                   [37mclojure.core/load/[37mfn[m  [32m                        core.clj: 6193[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6192[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6176[m
+                                                                    [37m...[m  [32m                                      [m
+                                                  [37mclojure.core/[37mload-one[m  [32m                        core.clj: 5965[m
+                                               [37mclojure.core/load-lib/[37mfn[m  [32m                        core.clj: 6007[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 6006[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 5985[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6048[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6032[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                   [37mclojure.core/[37mrequire[m  [32m                        core.clj: 6070[m
+                [37muncomplicate.clojurecuda.core/eval12076/[37mloading--auto--[m  [32m                        core.clj:    9[m
+                                [37muncomplicate.clojurecuda.core/[37meval12076[m  [32m                        core.clj:    9[m
+                                                                    [37m...[m  [32m                                      [m
+                                                   [37mclojure.core/load/[37mfn[m  [32m                        core.clj: 6193[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6192[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6176[m
+                                                                    [37m...[m  [32m                                      [m
+                                                  [37mclojure.core/[37mload-one[m  [32m                        core.clj: 5965[m
+                                               [37mclojure.core/load-lib/[37mfn[m  [32m                        core.clj: 6007[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 6006[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 5985[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6048[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6032[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                   [37mclojure.core/[37mrequire[m  [32m                        core.clj: 6070[m
+         [37muncomplicate.neanderthal.cublas-test/eval11524/[37mloading--auto--[m  [32m                 cublas_test.clj:    9[m
+                         [37muncomplicate.neanderthal.cublas-test/[37meval11524[m  [32m                 cublas_test.clj:    9[m
+                                                                    [37m...[m  [32m                                      [m
+                                                   [37mclojure.core/load/[37mfn[m  [32m                        core.clj: 6193[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6192[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6176[m
+                                                                    [37m...[m  [32m                                      [m
+                                                  [37mclojure.core/[37mload-one[m  [32m                        core.clj: 5965[m
+                                               [37mclojure.core/load-lib/[37mfn[m  [32m                        core.clj: 6007[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 6006[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 5985[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6048[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6032[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                   [37mclojure.core/[37mrequire[m  [32m                        core.clj: 6070[m
+                                            [37mmidje.repl/load-facts/fn/[37mfn[m  [32m                        repl.clj:  208[m
+                                               [37mmidje.repl/load-facts/[37mfn[m  [32m                        repl.clj:  208[m
+                                                  [37mmidje.repl/[37mload-facts[m  [32m                        repl.clj:  194 (repeats 2 times)[m
+                                                                    [37m...[m  [32m                                      [m
+                                                         [37muser/[37meval11517[m  [32m                       REPL Input     [m
+                                                                    [37m...[m  [32m                                      [m
+                                               [37mclojure.main/[37mload-script[m  [32m                        main.clj:  476[m
+                                                  [37mclojure.main/[37minit-opt[m  [32m                        main.clj:  478[m
+                                                [37mclojure.main/[37minitialize[m  [32m                        main.clj:  509[m
+                                                  [37mclojure.main/[37mnull-opt[m  [32m                        main.clj:  543[m
+                                                      [37mclojure.main/[37mmain[m  [32m                        main.clj:  665[m
+                                                      [37mclojure.main/[37mmain[m  [32m                        main.clj:  617[m
+                                                                    [37m...[m  [32m                                      [m
+                                                      [37mclojure.main.main[m  [32m                       main.java:   40[m
+
+[31mLOAD FAILURE for uncomplicate.neanderthal.cuda[0m
+[1;31mclojure.lang.Compiler$CompilerException[m: [37mSyntax error macroexpanding at (uncomplicate/clojurecuda/info.clj:1:1).[m
+    [1mdata[m: #:clojure.error{:phase :execution,
+                          :line 1,
+                          :column 1,
+                          :source "uncomplicate/clojurecuda/info.clj"}
+                    [1;31mjava.lang.Exception[m: [37mNo namespace: uncomplicate.clojurecuda.internal.constants[m
+                                     [37mclojure.core/[37mrefer[m  [32m core.clj: 4264[m
+                                     [37mclojure.core/[37mrefer[m  [32m core.clj: 4247[m
+                                                    [37m...[m  [32m               [m
+                                     [37mclojure.core/[37mapply[m  [32m core.clj:  669[m
+                                  [37mclojure.core/[37mload-lib[m  [32m core.clj: 6029[m
+                                  [37mclojure.core/[37mload-lib[m  [32m core.clj: 5985[m
+                                                    [37m...[m  [32m               [m
+                                     [37mclojure.core/[37mapply[m  [32m core.clj:  669[m
+                                 [37mclojure.core/[37mload-libs[m  [32m core.clj: 6052[m
+                                 [37mclojure.core/[37mload-libs[m  [32m core.clj: 6032[m
+                                                    [37m...[m  [32m               [m
+                                     [37mclojure.core/[37mapply[m  [32m core.clj:  669[m
+                                   [37mclojure.core/[37mrequire[m  [32m core.clj: 6070[m
+[37muncomplicate.clojurecuda.info/eval23702/[37mloading--auto--[m  [32m info.clj:    9[m
+                [37muncomplicate.clojurecuda.info/[37meval23702[m  [32m info.clj:    9[m
+                                                    [37m...[m  [32m               [m
+                                   [37mclojure.core/load/[37mfn[m  [32m core.clj: 6193[m
+                                      [37mclojure.core/[37mload[m  [32m core.clj: 6192[m
+                                      [37mclojure.core/[37mload[m  [32m core.clj: 6176[m
+                                                    [37m...[m  [32m               [m
+                                  [37mclojure.core/[37mload-one[m  [32m core.clj: 5965[m
+                               [37mclojure.core/load-lib/[37mfn[m  [32m core.clj: 6007[m
+                                  [37mclojure.core/[37mload-lib[m  [32m core.clj: 6006[m
+                                  [37mclojure.core/[37mload-lib[m  [32m core.clj: 5985[m
+                                                    [37m...[m  [32m               [m
+                                     [37mclojure.core/[37mapply[m  [32m core.clj:  669[m
+                                 [37mclojure.core/[37mload-libs[m  [32m core.clj: 6048[m
+                                 [37mclojure.core/[37mload-libs[m  [32m core.clj: 6032[m
+                                                    [37m...[m  [32m               [m
+                                     [37mclojure.core/[37mapply[m  [32m core.clj:  669[m
+                                   [37mclojure.core/[37mrequire[m  [32m core.clj: 6070[m
+[37muncomplicate.clojurecuda.core/eval23694/[37mloading--auto--[m  [32m core.clj:    9[m
+                [37muncomplicate.clojurecuda.core/[37meval23694[m  [32m core.clj:    9[m
+                                                    [37m...[m  [32m               [m
+                                   [37mclojure.core/load/[37mfn[m  [32m core.clj: 6193[m
+                                      [37mclojure.core/[37mload[m  [32m core.clj: 6192[m
+                                      [37mclojure.core/[37mload[m  [32m core.clj: 6176[m
+                                                    [37m...[m  [32m               [m
+                                  [37mclojure.core/[37mload-one[m  [32m core.clj: 5965[m
+                               [37mclojure.core/load-lib/[37mfn[m  [32m core.clj: 6007[m
+                                  [37mclojure.core/[37mload-lib[m  [32m core.clj: 6006[m
+                                  [37mclojure.core/[37mload-lib[m  [32m core.clj: 5985[m
+                                                    [37m...[m  [32m               [m
+                                     [37mclojure.core/[37mapply[m  [32m core.clj:  669[m
+                                 [37mclojure.core/[37mload-libs[m  [32m core.clj: 6048[m
+                                 [37mclojure.core/[37mload-libs[m  [32m core.clj: 6032[m
+                                                    [37m...[m  [32m               [m
+                                     [37mclojure.core/[37mapply[m  [32m core.clj:  669[m
+                                   [37mclojure.core/[37mrequire[m  [32m core.clj: 6070[m
+[37muncomplicate.neanderthal.cuda/eval23686/[37mloading--auto--[m  [32m cuda.clj:    9[m
+                [37muncomplicate.neanderthal.cuda/[37meval23686[m  [32m cuda.clj:    9[m
+                                                    [37m...[m  [32m               [m
+                                   [37mclojure.core/load/[37mfn[m  [32m core.clj: 6193[m
+                                      [37mclojure.core/[37mload[m  [32m core.clj: 6192[m
+                                      [37mclojure.core/[37mload[m  [32m core.clj: 6176[m
+                                                    [37m...[m  [32m               [m
+                                  [37mclojure.core/[37mload-one[m  [32m core.clj: 5965[m
+                               [37mclojure.core/load-lib/[37mfn[m  [32m core.clj: 6007[m
+                                  [37mclojure.core/[37mload-lib[m  [32m core.clj: 6006[m
+                                  [37mclojure.core/[37mload-lib[m  [32m core.clj: 5985[m
+                                                    [37m...[m  [32m               [m
+                                     [37mclojure.core/[37mapply[m  [32m core.clj:  669[m
+                                 [37mclojure.core/[37mload-libs[m  [32m core.clj: 6048[m
+                                 [37mclojure.core/[37mload-libs[m  [32m core.clj: 6032[m
+                                                    [37m...[m  [32m               [m
+                                     [37mclojure.core/[37mapply[m  [32m core.clj:  669[m
+                                   [37mclojure.core/[37mrequire[m  [32m core.clj: 6070[m
+                            [37mmidje.repl/load-facts/fn/[37mfn[m  [32m repl.clj:  208[m
+                               [37mmidje.repl/load-facts/[37mfn[m  [32m repl.clj:  208[m
+                                  [37mmidje.repl/[37mload-facts[m  [32m repl.clj:  194 (repeats 2 times)[m
+                                                    [37m...[m  [32m               [m
+                                         [37muser/[37meval11517[m  [32mREPL Input     [m
+                                                    [37m...[m  [32m               [m
+                               [37mclojure.main/[37mload-script[m  [32m main.clj:  476[m
+                                  [37mclojure.main/[37minit-opt[m  [32m main.clj:  478[m
+                                [37mclojure.main/[37minitialize[m  [32m main.clj:  509[m
+                                  [37mclojure.main/[37mnull-opt[m  [32m main.clj:  543[m
+                                      [37mclojure.main/[37mmain[m  [32m main.clj:  665[m
+                                      [37mclojure.main/[37mmain[m  [32m main.clj:  617[m
+                                                    [37m...[m  [32m               [m
+                                      [37mclojure.main.main[m  [32mmain.java:   40[m
+
+Debug: Loading class org.bytedeco.javacpp.presets.javacpp
+Debug: Loading class org.bytedeco.cuda.global.cudart
+[31mLOAD FAILURE for uncomplicate.neanderthal.internal.cpp.cuda.constants[0m
+[1;31mclojure.lang.Compiler$CompilerException[m: [37mSyntax error macroexpanding def at (constants.clj:14:1).[m
+    [1mdata[m: #:clojure.error{:phase :execution,
+                          :line 14,
+                          :column 1,
+                          :source "constants.clj",
+                          :symbol def}
+         [1;31mjava.lang.NoClassDefFoundError[m: [37mCould not initialize class org.bytedeco.cuda.global.cudart[m
+  [1;31mjava.lang.ExceptionInInitializerError[m: [37mException java.lang.UnsatisfiedLinkError: no jnicudart in java.library.path: /home/repos/neanderthal/corex_port/corex-libs:/usr/local/corex/lib64 [in thread "main"][m
+                                      [37mjava.lang.ClassLoader.loadLibrary[m  [32m                ClassLoader.java: 2458[m
+                                         [37mjava.lang.Runtime.loadLibrary0[m  [32m                    Runtime.java:  916[m
+                                           [37mjava.lang.System.loadLibrary[m  [32m                     System.java: 2064[m
+                                [37morg.bytedeco.javacpp.Loader.loadLibrary[m  [32m                     Loader.java: 1832[m
+                                       [37morg.bytedeco.javacpp.Loader.load[m  [32m                     Loader.java: 1423[m
+                                       [37morg.bytedeco.javacpp.Loader.load[m  [32m                     Loader.java: 1234[m
+                                       [37morg.bytedeco.javacpp.Loader.load[m  [32m                     Loader.java: 1210[m
+                               [37morg.bytedeco.cuda.global.cudart.<clinit>[m  [32m                     cudart.java:   14[m
+                       [37mjdk.internal.misc.Unsafe.ensureClassInitialized0[m  [32m                      Unsafe.java     [m
+                        [37mjdk.internal.misc.Unsafe.ensureClassInitialized[m  [32m                     Unsafe.java: 1160[m
+[37mjdk.internal.reflect.MethodHandleAccessorFactory.ensureClassInitialized[m  [32mMethodHandleAccessorFactory.java:  301[m
+      [37mjdk.internal.reflect.MethodHandleAccessorFactory.newFieldAccessor[m  [32mMethodHandleAccessorFactory.java:  141[m
+                [37mjdk.internal.reflect.ReflectionFactory.newFieldAccessor[m  [32m          ReflectionFactory.java:  145[m
+                                                                    [37m...[m  [32m                                      [m
+                                                   [37mclojure.core/load/[37mfn[m  [32m                        core.clj: 6193[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6192[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6176[m
+                                                                    [37m...[m  [32m                                      [m
+                                                  [37mclojure.core/[37mload-one[m  [32m                        core.clj: 5965[m
+                                               [37mclojure.core/load-lib/[37mfn[m  [32m                        core.clj: 6007[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 6006[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 5985[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6052[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6032[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                   [37mclojure.core/[37mrequire[m  [32m                        core.clj: 6070[m
+                [37muncomplicate.clojurecuda.info/eval23666/[37mloading--auto--[m  [32m                        info.clj:    9[m
+                                [37muncomplicate.clojurecuda.info/[37meval23666[m  [32m                        info.clj:    9[m
+                                                                    [37m...[m  [32m                                      [m
+                                                   [37mclojure.core/load/[37mfn[m  [32m                        core.clj: 6193[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6192[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6176[m
+                                                                    [37m...[m  [32m                                      [m
+                                                  [37mclojure.core/[37mload-one[m  [32m                        core.clj: 5965[m
+                                               [37mclojure.core/load-lib/[37mfn[m  [32m                        core.clj: 6007[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 6006[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 5985[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6048[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6032[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                   [37mclojure.core/[37mrequire[m  [32m                        core.clj: 6070[m
+                [37muncomplicate.clojurecuda.core/eval12076/[37mloading--auto--[m  [32m                        core.clj:    9[m
+                                [37muncomplicate.clojurecuda.core/[37meval12076[m  [32m                        core.clj:    9[m
+                                                                    [37m...[m  [32m                                      [m
+                                                   [37mclojure.core/load/[37mfn[m  [32m                        core.clj: 6193[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6192[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6176[m
+                                                                    [37m...[m  [32m                                      [m
+                                                  [37mclojure.core/[37mload-one[m  [32m                        core.clj: 5965[m
+                                               [37mclojure.core/load-lib/[37mfn[m  [32m                        core.clj: 6007[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 6006[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 5985[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6048[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6032[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                   [37mclojure.core/[37mrequire[m  [32m                        core.clj: 6070[m
+         [37muncomplicate.neanderthal.cublas-test/eval11524/[37mloading--auto--[m  [32m                 cublas_test.clj:    9[m
+                         [37muncomplicate.neanderthal.cublas-test/[37meval11524[m  [32m                 cublas_test.clj:    9[m
+                                                                    [37m...[m  [32m                                      [m
+                                                   [37mclojure.core/load/[37mfn[m  [32m                        core.clj: 6193[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6192[m
+                                                      [37mclojure.core/[37mload[m  [32m                        core.clj: 6176[m
+                                                                    [37m...[m  [32m                                      [m
+                                                  [37mclojure.core/[37mload-one[m  [32m                        core.clj: 5965[m
+                                               [37mclojure.core/load-lib/[37mfn[m  [32m                        core.clj: 6007[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 6006[m
+                                                  [37mclojure.core/[37mload-lib[m  [32m                        core.clj: 5985[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6048[m
+                                                 [37mclojure.core/[37mload-libs[m  [32m                        core.clj: 6032[m
+                                                                    [37m...[m  [32m                                      [m
+                                                     [37mclojure.core/[37mapply[m  [32m                        core.clj:  669[m
+                                                   [37mclojure.core/[37mrequire[m  [32m                        core.clj: 6070[m
+                                            [37mmidje.repl/load-facts/fn/[37mfn[m  [32m                        repl.clj:  208[m
+                                               [37mmidje.repl/load-facts/[37mfn[m  [32m                        repl.clj:  208[m
+                                                  [37mmidje.repl/[37mload-facts[m  [32m                        repl.clj:  194 (repeats 2 times)[m
+                                                                    [37m...[m  [32m                                      [m
+                                                         [37muser/[37meval11517[m  [32m                       REPL Input     [m
+                                                                    [37m...[m  [32m                                      [m
+                                               [37mclojure.main/[37mload-script[m  [32m                        main.clj:  476[m
+                                                  [37mclojure.main/[37minit-opt[m  [32m                        main.clj:  478[m
+                                                [37mclojure.main/[37minitialize[m  [32m                        main.clj:  509[m
+                                                  [37mclojure.main/[37mnull-opt[m  [32m                        main.clj:  543[m
+                                                      [37mclojure.main/[37mmain[m  [32m                        main.clj:  665[m
+                                                      [37mclojure.main/[37mmain[m  [32m                        main.clj:  617[m
+                                                                    [37m...[m  [32m                                      [m
+                                                      [37mclojure.main.main[m  [32m                       main.java:   40[m
+
+[31mLOAD FAILURE for uncomplicate.neanderthal.internal.cpp.cuda.factory[0m
+[1;31mclojure.lang.Compiler$CompilerException[m: [37mSyntax error macroexpanding at (uncomplicate/clojurecuda/info.clj:1:1).[m
+    [1mdata[m: #:clojure.error{:phase :execution,
+                          :line 1,
+                          :column 1,
+                          :source "uncomplicate/clojurecuda/info.clj"}
+                    [1;31mjava.lang.Exception[m: [37mNo namespace: uncomplicate.clojurecuda.internal.constants[m
+                                                          [37mclojure.core/[37mrefer[m  [32m   core.clj: 4264[m
+                                                          [37mclojure.core/[37mrefer[m  [32m   core.clj: 4247[m
+                                                                         [37m...[m  [32m                 [m
+                                                          [37mclojure.core/[37mapply[m  [32m   core.clj:  669[m
+                                                       [37mclojure.core/[37mload-lib[m  [32m   core.clj: 6029[m
+                                                       [37mclojure.core/[37mload-lib[m  [32m   core.clj: 5985[m
+                                                                         [37m...[m  [32m                 [m
+                                                          [37mclojure.core/[37mapply[m  [32m   core.clj:  669[m
+                                                      [37mclojure.core/[37mload-libs[m  [32m   core.clj: 6052[m
+                                                      [37mclojure.core/[37mload-libs[m  [32m   core.clj: 6032[m
+                                                                         [37m...[m  [32m                 [m
+                                                          [37mclojure.core/[37mapply[m  [32m   core.clj:  669[m
+                                                        [37mclojure.core/[37mrequire[m  [32m   core.clj: 6070[m
+                     [37muncomplicate.clojurecuda.info/eval23738/[37mloading--auto--[m  [32m   info.clj:    9[m
+                                     [37muncomplicate.clojurecuda.info/[37meval23738[m  [32m   info.clj:    9[m
+                                                                         [37m...[m  [32m                 [m
+                                                        [37mclojure.core/load/[37mfn[m  [32m   core.clj: 6193[m
+                                                           [37mclojure.core/[37mload[m  [32m   core.clj: 6192[m
+                                                           [37mclojure.core/[37mload[m  [32m   core.clj: 6176[m
+                                                                         [37m...[m  [32m                 [m
+                                                       [37mclojure.core/[37mload-one[m  [32m   core.clj: 5965[m
+                                                    [37mclojure.core/load-lib/[37mfn[m  [32m   core.clj: 6007[m
+                                                       [37mclojure.core/[37mload-lib[m  [32m   core.clj: 6006[m
+                                                       [37mclojure.core/[37mload-lib[m  [32m   core.clj: 5985[m
+                                                                         [37m...[m  [32m                 [m
+                                                          [37mclojure.core/[37mapply[m  [32m   core.clj:  669[m
+                                                      [37mclojure.core/[37mload-libs[m  [32m   core.clj: 6048[m
+                                                      [37mclojure.core/[37mload-libs[m  [32m   core.clj: 6032[m
+                                                                         [37m...[m  [32m                 [m
+                                                          [37mclojure.core/[37mapply[m  [32m   core.clj:  669[m
+                                                        [37mclojure.core/[37mrequire[m  [32m   core.clj: 6070[m
+                     [37muncomplicate.clojurecuda.core/eval23730/[37mloading--auto--[m  [32m   core.clj:    9[m
+                                     [37muncomplicate.clojurecuda.core/[37meval23730[m  [32m   core.clj:    9[m
+                                                                         [37m...[m  [32m                 [m
+                                                        [37mclojure.core/load/[37mfn[m  [32m   core.clj: 6193[m
+                                                           [37mclojure.core/[37mload[m  [32m   core.clj: 6192[m
+                                                           [37mclojure.core/[37mload[m  [32m   core.clj: 6176[m
+                                                                         [37m...[m  [32m                 [m
+                                                       [37mclojure.core/[37mload-one[m  [32m   core.clj: 5965[m
+                                                    [37mclojure.core/load-lib/[37mfn[m  [32m   core.clj: 6007[m
+                                                       [37mclojure.core/[37mload-lib[m  [32m   core.clj: 6006[m
+                                                       [37mclojure.core/[37mload-lib[m  [32m   core.clj: 5985[m
+                                                                         [37m...[m  [32m                 [m
+                                                          [37mclojure.core/[37mapply[m  [32m   core.clj:  669[m
+                                                      [37mclojure.core/[37mload-libs[m  [32m   core.clj: 6052[m
+                                                      [37mclojure.core/[37mload-libs[m  [32m   core.clj: 6032[m
+                                                                         [37m...[m  [32m                 [m
+                                                          [37mclojure.core/[37mapply[m  [32m   core.clj:  669[m
+                                                        [37mclojure.core/[37mrequire[m  [32m   core.clj: 6070[m
+[37muncomplicate.neanderthal.internal.cpp.cuda.factory/eval23722/[37mloading--auto--[m  [32mfactory.clj:    9[m
+                [37muncomplicate.neanderthal.internal.cpp.cuda.factory/[37meval23722[m  [32mfactory.clj:    9[m
+                                                                         [37m...[m  [32m                 [m
+                                                        [37mclojure.core/load/[37mfn[m  [32m   core.clj: 6193[m
+                                                           [37mclojure.core/[37mload[m  [32m   core.clj: 6192[m
+                                                           [37mclojure.core/[37mload[m  [32m   core.clj: 6176[m
+                                                                         [37m...[m  [32m                 [m
+                                                       [37mclojure.core/[37mload-one[m  [32m   core.clj: 5965[m
+                                                    [37mclojure.core/load-lib/[37mfn[m  [32m   core.clj: 6007[m
+                                                       [37mclojure.core/[37mload-lib[m  [32m   core.clj: 6006[m
+                                                       [37mclojure.core/[37mload-lib[m  [32m   core.clj: 5985[m
+                                                                         [37m...[m  [32m                 [m
+                                                          [37mclojure.core/[37mapply[m  [32m   core.clj:  669[m
+                                                      [37mclojure.core/[37mload-libs[m  [32m   core.clj: 6048[m
+                                                      [37mclojure.core/[37mload-libs[m  [32m   core.clj: 6032[m
+                                                                         [37m...[m  [32m                 [m
+                                                          [37mclojure.core/[37mapply[m  [32m   core.clj:  669[m
+                                                        [37mclojure.core/[37mrequire[m  [32m   core.clj: 6070[m
+                                                 [37mmidje.repl/load-facts/fn/[37mfn[m  [32m   repl.clj:  208[m
+                                                    [37mmidje.repl/load-facts/[37mfn[m  [32m   repl.clj:  208[m
+                                                       [37mmidje.repl/[37mload-facts[m  [32m   repl.clj:  194 (repeats 2 times)[m
+                                                                         [37m...[m  [32m                 [m
+                                                              [37muser/[37meval11517[m  [32m  REPL Input     [m
+                                                                         [37m...[m  [32m                 [m
+                                                    [37mclojure.main/[37mload-script[m  [32m   main.clj:  476[m
+                                                       [37mclojure.main/[37minit-opt[m  [32m   main.clj:  478[m
+                                                     [37mclojure.main/[37minitialize[m  [32m   main.clj:  509[m
+                                                       [37mclojure.main/[37mnull-opt[m  [32m   main.clj:  543[m
+                                                           [37mclojure.main/[37mmain[m  [32m   main.clj:  665[m
+                                                           [37mclojure.main/[37mmain[m  [32m   main.clj:  617[m
+                                                                         [37m...[m  [32m                 [m
+                                                           [37mclojure.main.main[m  [32m  main.java:   40[m
+
+[31mLOAD FAILURE for uncomplicate.neanderthal.internal.cpp.cuda.structures[0m
+[1;31mclojure.lang.Compiler$CompilerException[m: [37mSyntax error macroexpanding at (uncomplicate/clojurecuda/info.clj:1:1).[m
+    [1mdata[m: #:clojure.error{:phase :execution,
+                          :line 1,
+                          :column 1,
+                          :source "uncomplicate/clojurecuda/info.clj"}
+                    [1;31mjava.lang.Exception[m: [37mNo namespace: uncomplicate.clojurecuda.internal.constants[m
+                                                             [37mclojure.core/[37mrefer[m  [32m      core.clj: 4264[m
+                                                             [37mclojure.core/[37mrefer[m  [32m      core.clj: 4247[m
+                                                                            [37m...[m  [32m                    [m
+                                                             [37mclojure.core/[37mapply[m  [32m      core.clj:  669[m
+                                                          [37mclojure.core/[37mload-lib[m  [32m      core.clj: 6029[m
+                                                          [37mclojure.core/[37mload-lib[m  [32m      core.clj: 5985[m
+                                                                            [37m...[m  [32m                    [m
+                                                             [37mclojure.core/[37mapply[m  [32m      core.clj:  669[m
+                                                         [37mclojure.core/[37mload-libs[m  [32m      core.clj: 6052[m
+                                                         [37mclojure.core/[37mload-libs[m  [32m      core.clj: 6032[m
+                                                                            [37m...[m  [32m                    [m
+                                                             [37mclojure.core/[37mapply[m  [32m      core.clj:  669[m
+                                                           [37mclojure.core/[37mrequire[m  [32m      core.clj: 6070[m
+                        [37muncomplicate.clojurecuda.info/eval23762/[37mloading--auto--[m  [32m      info.clj:    9[m
+                                        [37muncomplicate.clojurecuda.info/[37meval23762[m  [32m      info.clj:    9[m
+                                                                            [37m...[m  [32m                    [m
+                                                           [37mclojure.core/load/[37mfn[m  [32m      core.clj: 6193[m
+                                                              [37mclojure.core/[37mload[m  [32m      core.clj: 6192[m
+                                                              [37mclojure.core/[37mload[m  [32m      core.clj: 6176[m
+                                                                            [37m...[m  [32m                    [m
+                                                          [37mclojure.core/[37mload-one[m  [32m      core.clj: 5965[m
+                                                       [37mclojure.core/load-lib/[37mfn[m  [32m      core.clj: 6007[m
+                                                          [37mclojure.core/[37mload-lib[m  [32m      core.clj: 6006[m
+                                                          [37mclojure.core/[37mload-lib[m  [32m      core.clj: 5985[m
+                                                                            [37m...[m  [32m                    [m
+                                                             [37mclojure.core/[37mapply[m  [32m      core.clj:  669[m
+                                                         [37mclojure.core/[37mload-libs[m  [32m      core.clj: 6048[m
+                                                         [37mclojure.core/[37mload-libs[m  [32m      core.clj: 6032[m
+                                                                            [37m...[m  [32m                    [m
+                                                             [37mclojure.core/[37mapply[m  [32m      core.clj:  669[m
+                                                           [37mclojure.core/[37mrequire[m  [32m      core.clj: 6070[m
+                        [37muncomplicate.clojurecuda.core/eval23754/[37mloading--auto--[m  [32m      core.clj:    9[m
+                                        [37muncomplicate.clojurecuda.core/[37meval23754[m  [32m      core.clj:    9[m
+                                                                            [37m...[m  [32m                    [m
+                                                           [37mclojure.core/load/[37mfn[m  [32m      core.clj: 6193[m
+                                                              [37mclojure.core/[37mload[m  [32m      core.clj: 6192[m
+                                                              [37mclojure.core/[37mload[m  [32m      core.clj: 6176[m
+                                                                            [37m...[m  [32m                    [m
+                                                          [37mclojure.core/[37mload-one[m  [32m      core.clj: 5965[m
+                                                       [37mclojure.core/load-lib/[37mfn[m  [32m      core.clj: 6007[m
+                                                          [37mclojure.core/[37mload-lib[m  [32m      core.clj: 6006[m
+                                                          [37mclojure.core/[37mload-lib[m  [32m      core.clj: 5985[m
+                                                                            [37m...[m  [32m                    [m
+                                                             [37mclojure.core/[37mapply[m  [32m      core.clj:  669[m
+                                                         [37mclojure.core/[37mload-libs[m  [32m      core.clj: 6048[m
+                                                         [37mclojure.core/[37mload-libs[m  [32m      core.clj: 6032[m
+                                                                            [37m...[m  [32m                    [m
+                                                             [37mclojure.core/[37mapply[m  [32m      core.clj:  669[m
+                                                           [37mclojure.core/[37mrequire[m  [32m      core.clj: 6070[m
+[37muncomplicate.neanderthal.internal.cpp.cuda.structures/eval23746/[37mloading--auto--[m  [32mstructures.clj:    9[m
+                [37muncomplicate.neanderthal.internal.cpp.cuda.structures/[37meval23746[m  [32mstructures.clj:    9[m
+                                                                            [37m...[m  [32m                    [m
+                                                           [37mclojure.core/load/[37mfn[m  [32m      core.clj: 6193[m
+                                                              [37mclojure.core/[37mload[m  [32m      core.clj: 6192[m
+                                                              [37mclojure.core/[37mload[m  [32m      core.clj: 6176[m
+                                                                            [37m...[m  [32m                    [m
+                                                          [37mclojure.core/[37mload-one[m  [32m      core.clj: 5965[m
+                                                       [37mclojure.core/load-lib/[37mfn[m  [32m      core.clj: 6007[m
+                                                          [37mclojure.core/[37mload-lib[m  [32m      core.clj: 6006[m
+                                                          [37mclojure.core/[37mload-lib[m  [32m      core.clj: 5985[m
+                                                                            [37m...[m  [32m                    [m
+                                                             [37mclojure.core/[37mapply[m  [32m      core.clj:  669[m
+                                                         [37mclojure.core/[37mload-libs[m  [32m      core.clj: 6048[m
+                                                         [37mclojure.core/[37mload-libs[m  [32m      core.clj: 6032[m
+                                                                            [37m...[m  [32m                    [m
+                                                             [37mclojure.core/[37mapply[m  [32m      core.clj:  669[m
+                                                           [37mclojure.core/[37mrequire[m  [32m      core.clj: 6070[m
+                                                    [37mmidje.repl/load-facts/fn/[37mfn[m  [32m      repl.clj:  208[m
+                                                       [37mmidje.repl/load-facts/[37mfn[m  [32m      repl.clj:  208[m
+                                                          [37mmidje.repl/[37mload-facts[m  [32m      repl.clj:  194 (repeats 2 times)[m
+                                                                            [37m...[m  [32m                    [m
+                                                                 [37muser/[37meval11517[m  [32m     REPL Input     [m
+                                                                            [37m...[m  [32m                    [m
+                                                       [37mclojure.main/[37mload-script[m  [32m      main.clj:  476[m
+                                                          [37mclojure.main/[37minit-opt[m  [32m      main.clj:  478[m
+                                                        [37mclojure.main/[37minitialize[m  [32m      main.clj:  509[m
+                                                          [37mclojure.main/[37mnull-opt[m  [32m      main.clj:  543[m
+                                                              [37mclojure.main/[37mmain[m  [32m      main.clj:  665[m
+                                                              [37mclojure.main/[37mmain[m  [32m      main.clj:  617[m
+                                                                            [37m...[m  [32m                    [m
+                                                              [37mclojure.main.main[m  [32m     main.java:   40[m
+
+Execution error at clojure.test/test-ns (test.clj:743).
+No namespace: uncomplicate.neanderthal.cublas-test found
+
+Full report at:
+/tmp/clojure-3787280039390066125.edn
+Subprocess failed (exit code: 1)
