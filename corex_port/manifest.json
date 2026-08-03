@@ -8,16 +8,13 @@
   "migration_finished_at": "2026-07-28T18:55:00+08:00",
   "sdk_version": "CoreX 4.5.0.20260630",
   "skill_version": "corex-cuda-compatible-migration",
-
   "compile_status": "not_applicable",
   "test_status": "not_attempted",
   "overall_status": "blocked",
-
   "tests_run": 0,
   "tests_passed": 0,
   "tests_failed": 0,
   "tests_skipped": 0,
-
   "summary": "neanderthal 是基于原生 BLAS/LAPACK 的 Clojure 高性能矩阵/线性代数库，其 CUDA 后端(neanderthal-cuda, HEAD 0.64.0)通过 uncomplicate/clojurecuda 0.31.0 + org.bytedeco:cuda-platform:13.1-9.19-1.5.13(JavaCPP CUDA 13.1 JNI)调用 cuBLAS，并用 NVRTC 在运行时 JIT 编译 .cu kernel。本机 CoreX(ivcore11, BI-V150) 只提供 CUDA 10.2 用户态库。经真实复现：JavaCPP 的 CUDA 13.1 JNI 桩(libjnicudart/libjnicublas/libjninvrtc)硬绑版本化符号(如 cublasZsyrk_v2_64@libcublas.so.13、libcudart.so.13 版本节点)，CoreX 10.2 无法满足，导致 org.bytedeco.cuda.global.cudart 类初始化失败(UnsatisfiedLinkError→NoClassDefFoundError)，整个 CUDA 后端无法加载，任何 GPU 矩阵测试都无法运行。该 ABI 断层在不改 /usr/local/corex(红线1)、不 fork 整条 javacpp/clojurecuda 预设链的前提下不可调和，判定为 terminal blocker，overall_status=blocked。第二层 terminal 问题是 ivcore11 无真 FP64、neanderthal 默认大量 double 路径受限(因被 ABI blocker 提前阻断而未实测)。",
   "key_adaptations": [
     "识别出 CUDA 后端的运行时依赖链：clojurecuda 0.31.0 → clojure-cpp 0.10.0(锁 javacpp 1.5.13) → org.bytedeco:cuda-platform 13.1(CUDA 13.1 JNI)，与 CoreX CUDA 10.2 存在根本 ABI 断层。",
@@ -25,19 +22,12 @@
     "构造 CUDA-13 SONAME 垫片(corex_port/corex-libs/make_shims.sh)把 CoreX 的 .so.10/.so.10.2 软链为 .so.13/.so.12，尝试让 JavaCPP 加载 CoreX 库——实测仍因符号版本节点缺失失败(证据落盘)。",
     "安装用户态 Leiningen 2.12.0(JDK 21 已就绪)完成依赖解析与端到端测试运行，真实复现 native 加载失败。"
   ],
-  "terminal_blockers": [
-    "JavaCPP/clojurecuda 的 CUDA 13.1 JNI(版本化符号 @libcublas.so.13 / @libnvrtc.so.13 / libcudart.so.13 版本节点)无法绑定 CoreX 的 CUDA 10.2 用户态库，CUDA 后端类初始化即失败，0 个 GPU 用例可运行(详见 blockers.json 与 test/test.log)。",
-    "ivcore11 无真 FP64：neanderthal 的 cuda-double factory 与 double 精度断言、cublas double 例程在硬件上不可行(因被上游 ABI blocker 阻断而未实测到该层)。"
-  ],
-  "workaround_blockers": [],
-
   "upstream_assessment": {
     "upstream_status": "blocked",
     "notes": "本次 CoreX 改动仅限 neanderthal-cuda/project.clj(去掉 NVIDIA cuda-redist、加 javacpp pathsFirst 与 java.library.path)，属可 guard 的构建配置，本身不回归 NVIDIA 默认路径。但它并不能让仓库在 CoreX 上真正跑通——真正的卡点是上游 CUDA 后端整体绑定 JavaCPP CUDA 13.1 JNI，而 CoreX 只有 CUDA 10.2，二者 ABI 不可调和。要在 CoreX 上可用需要 CoreX 提供 CUDA 13 兼容用户态，或把 clojurecuda/clojure-cpp/javacpp 预设整体降到 CUDA 10.2(结构上无法对单个仓库干净剥离，属整库降版本)。因此 CoreX 适配无法以对 NVIDIA 无回归的方式合入上游，标记 blocked。未修改上游默认分支。",
     "pr_url": ""
   },
   "bugfixes": [],
-
   "github": {
     "fork_url": "https://github.com/tlmn2008/neanderthal",
     "branch": "corex-port",
@@ -48,7 +38,6 @@
     "push_status": "success",
     "pushed_at": "2026-07-28T19:00:00+08:00"
   },
-
   "local_logs": {
     "compile_log": "(无 host 侧 CUDA 编译步骤；kernel 为运行时 NVRTC JIT，未到达)",
     "test_log": "corex_port/test/test.log"

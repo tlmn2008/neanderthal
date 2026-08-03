@@ -1,25 +1,18 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "repo": "neanderthal",
-  "target": "Iluvatar CoreX ivcore11 (BI-V150), CoreX SDK 4.5.0 / CUDA 10.2",
+  "target": "BI-V150",
   "blockers": [
     {
       "id": "javacpp-cuda13-vs-corex-cuda10-abi",
-      "symptom": "加载 neanderthal-cuda 时，命名空间 uncomplicate.clojurecuda.core / uncomplicate.neanderthal.internal.cpp.cuda.constants 初始化即抛 java.lang.UnsatisfiedLinkError，进而 NoClassDefFoundError: Could not initialize class org.bytedeco.cuda.global.cudart，整个 CUDA 后端无法初始化，任何 GPU 测试都无法运行。",
-      "classification": "terminal",
-      "resolved": false,
+      "desc": "加载 neanderthal-cuda 时，命名空间 uncomplicate.clojurecuda.core / uncomplicate.neanderthal.internal.cpp.cuda.constants 初始化即抛 java.lang.UnsatisfiedLinkError，进而 NoClassDefFoundError: Could not initialize class org.bytedeco.cuda.global.cudart，整个 CUDA 后端无法初始化，任何 GPU 测试都无法运行。",
       "category": "dependency",
       "phase": "runtime",
+      "verdict": "corex-issue",
+      "status": "open",
       "file": "neanderthal-cuda/project.clj",
-      "final_verdict": "terminal。CoreX(ivcore11) 环境只有 CUDA 10.2 用户态，而 HEAD 版 neanderthal 的 CUDA 后端硬绑 JavaCPP CUDA 13.1 JNI(版本化符号)。不改 /usr/local/corex(红线1)且不 fork 整条 javacpp/clojurecuda 预设链的前提下，二者 ABI 不可调和，GPU 测试无法运行。",
-      "error_snippet": "UnsatisfiedLinkError: .../libjnicudart.so: /usr/local/corex-4.5.0/lib64/libcudart.so.10.2.89: version `libcudart.so.13' not found (required by libjnicudart.so); libjnicublas.so: undefined symbol: cublasZsyrk_v2_64, version libcublas.so.13; libjninvrtc.so: undefined symbol: nvrtcGetLTOIRSize, version libnvrtc.so.13",
-      "evidence": [
-        "corex_port/build/abi_probe.log：readelf -d 显示 libjnicudart/libjnicublas/libjninvrtc/libjnicusolver 的 NEEDED 为 libcudart.so.13 / libcublas.so.13 / libcublasLt.so.13 / libnvrtc.so.13 / libcusolver.so.12 / libcusolverMg.so.12。",
-        "符号级探针：JNI 引用的 798 个 cublas* 符号全部带版本标记 @libcublas.so.13；CoreX 10.2 的 libcublas 虽然定义了同名函数(995 个)但全部无版本节点，故 798 个全部无法解析。",
-        "dlopen 探针(corex_port/build/abi_probe.log)：把 CoreX .so.10 软链为 .so.13 后 dlopen JNI 仍失败——libcudart『version libcudart.so.13 not found』、libcublas『undefined symbol cublasZsyrk_v2_64, version libcublas.so.13』、libnvrtc『undefined symbol nvrtcGetLTOIRSize, version libnvrtc.so.13』。",
-        "端到端复现(corex_port/test/test.log)：lein midje 运行时 JavaCPP(pathsFirst=true) 已优先加载 CoreX 库，但因版本节点缺失抛 UnsatisfiedLinkError，测试命名空间 LOAD FAILURE，0 用例运行。"
-      ],
-      "root_cause": "仓库 HEAD(0.64.0) 的 CUDA 后端通过 uncomplicate/clojurecuda 0.31.0 依赖 org.bytedeco:cuda-platform:13.1-9.19-1.5.13，其 JNI 桩(libjni*.so)是针对 NVIDIA CUDA 13.1 编译并做了符号版本绑定(foo@libcublas.so.13)。CoreX SDK 4.5.0 只提供 CUDA 10.2 用户态库(libcudart.so.10 / libcublas.so.10 / libnvrtc.so.10.2)，SONAME 与符号版本节点均为 10.x/无版本，无法满足 13.x 版本化符号引用。",
+      "error": "UnsatisfiedLinkError: .../libjnicudart.so: /usr/local/corex-4.5.0/lib64/libcudart.so.10.2.89: version `libcudart.so.13' not found (required by libjnicudart.so); libjnicublas.so: undefined symbol: cublasZsyrk_v2_64, version libcublas.so.13; libjninvrtc.so: undefined symbol: nvrtcGetLTOIRSize, version libnvrtc.so.13",
+      "root_cause": "仓库 HEAD(0.64.0) 的 CUDA 后端通过 uncomplicate/clojurecuda 0.31.0 依赖 org.bytedeco:cuda-platform:13.1-9.19-1.5.13，其 JNI 桩(libjni*.so)是针对 NVIDIA CUDA 13.1 编译并做了符号版本绑定(foo@libcublas.so.13)。CoreX SDK 4.5.0 只提供 CUDA 10.2 用户态库(libcudart.so.10 / libcublas.so.10 / libnvrtc.so.10.2)，SONAME 与符号版本节点均为 10.x/无版本，无法满足 13.x 版本化符号引用。  证据: corex_port/build/abi_probe.log：readelf -d 显示 libjnicudart/libjnicublas/libjninvrtc/libjnicusolver 的 NEEDED 为 libcudart.so.13 / libcublas.so.13 / libcublasLt.so.13 / libnvrtc.so.13 / libcusolver.so.12 / libcusolverMg.so.12。; 符号级探针：JNI 引用的 798 个 cublas* 符号全部带版本标记 @libcublas.so.13；CoreX 10.2 的 libcublas 虽然定义了同名函数(995 个)但全部无版本节点，故 798 个全部无法解析。; dlopen 探针(corex_port/build/abi_probe.log)：把 CoreX .so.10 软链为 .so.13 后 dlopen JNI 仍失败——libcudart『version libcudart.so.13 not found』、libcublas『undefined symbol cublasZsyrk_v2_64, version libcublas.so.13』、libnvrtc『undefined symbol nvrtcGetLTOIRSize, version libnvrtc.so.13』。; 端到端复现(corex_port/test/test.log)：lein midje 运行时 JavaCPP(pathsFirst=true) 已优先加载 CoreX 库，但因版本节点缺失抛 UnsatisfiedLinkError，测试命名空间 LOAD FAILURE，0 用例运行。  结论: terminal。CoreX(ivcore11) 环境只有 CUDA 10.2 用户态，而 HEAD 版 neanderthal 的 CUDA 后端硬绑 JavaCPP CUDA 13.1 JNI(版本化符号)。不改 /usr/local/corex(红线1)且不 fork 整条 javacpp/clojurecuda 预设链的前提下，二者 ABI 不可调和，GPU 测试无法运行。",
       "attempts": [
         {
           "action": "把 CoreX 的 libcudart/libcublas/libcublasLt/libnvrtc/libcusolver 软链为 .so.13/.so.12 期望名，并用 -Dorg.bytedeco.javacpp.pathsFirst=true + -Djava.library.path 指向该目录，令 JavaCPP 优先加载 CoreX 库",
@@ -38,19 +31,14 @@
     },
     {
       "id": "fp64-double-unsupported-ivcore11",
-      "symptom": "cublas_test.clj 以 cuda-double factory 跑一整轮 BLAS/LAPACK/math/random（dgemm、dtrsm、dsyrk、double 归约与 double vect-math 等）。ivcore11 硬件无真 double：cublas double 例程(如 dgemm/dtrsm)返回 NOT_SUPPORTED，device 端 double 静默退化为 fp32、部分 <cmath> double builtin 直接返错值，rtol 级数值断言无法通过。",
-      "classification": "terminal",
-      "resolved": false,
-      "category": "precision_fp64",
+      "desc": "cublas_test.clj 以 cuda-double factory 跑一整轮 BLAS/LAPACK/math/random（dgemm、dtrsm、dsyrk、double 归约与 double vect-math 等）。ivcore11 硬件无真 double：cublas double 例程(如 dgemm/dtrsm)返回 NOT_SUPPORTED，device 端 double 静默退化为 fp32、部分 <cmath> double builtin 直接返错值，rtol 级数值断言无法通过。",
+      "category": "precision",
       "phase": "runtime",
+      "verdict": "corex-issue",
+      "status": "open",
       "file": "neanderthal-cuda/test/uncomplicate/neanderthal/cublas_test.clj",
-      "final_verdict": "terminal(精度类硬件缺失)，但本次为『依据已知平台事实 + 未实测』的预判性登记；因更上游的 ABI blocker，double 相关用例未实际执行，故不计入运行时失败计数。",
-      "error_snippet": "(尚未实测到该层——被上游 javacpp-cuda13-vs-corex-cuda10-abi 阻断在更早的 native 加载阶段)",
-      "root_cause": "Iluvatar ivcore11(BI-V150) 不支持 double/float64/long double；neanderthal 的 cuda-double factory 与 real-test 对 double 使用高精度断言，且依赖 cublas 的 double 例程。",
-      "evidence": [
-        "iluvatar-cuda-base 索引：`double` 静默 fp32、`<cmath>` double 大类失效、cusolver gesvd 仅 float、cublas double 例程精度/支持受限。",
-        "本任务未能实测到该层：native 绑定阶段(javacpp-cuda13-vs-corex-cuda10-abi)已终止执行，double 用例根本没跑到。"
-      ],
+      "error": "(尚未实测到该层——被上游 javacpp-cuda13-vs-corex-cuda10-abi 阻断在更早的 native 加载阶段)",
+      "root_cause": "Iluvatar ivcore11(BI-V150) 不支持 double/float64/long double；neanderthal 的 cuda-double factory 与 real-test 对 double 使用高精度断言，且依赖 cublas 的 double 例程。  证据: iluvatar-cuda-base 索引：`double` 静默 fp32、`<cmath>` double 大类失效、cusolver gesvd 仅 float、cublas double 例程精度/支持受限。; 本任务未能实测到该层：native 绑定阶段(javacpp-cuda13-vs-corex-cuda10-abi)已终止执行，double 用例根本没跑到。  结论: terminal(精度类硬件缺失)，但本次为『依据已知平台事实 + 未实测』的预判性登记；因更上游的 ABI blocker，double 相关用例未实际执行，故不计入运行时失败计数。",
       "attempts": [
         {
           "action": "计划按红线3/5 对 GPU 端 double 路径做平台保护式降级为 float 或如实记录为受限",
